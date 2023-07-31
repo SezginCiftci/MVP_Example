@@ -50,7 +50,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         view.backgroundColor = .secondarySystemBackground
         navigationController?.navigationBar.prefersLargeTitles = true
-        title = "YOUR USERS LIST"
+        title = "USERS LIST"
         
         view.addSubview(listTableView)
         NSLayoutConstraint.activate([
