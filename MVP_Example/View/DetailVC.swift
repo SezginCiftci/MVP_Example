@@ -8,7 +8,6 @@
 import UIKit
 
 protocol ChangeViewColorDelegate: AnyObject {
-//    func printSmt(_ title: String)
     func changeColor(_ color: UIColor)
 }
 
